@@ -4,7 +4,7 @@ import heroImg from '../../assets/hero-img.png';
 function Hero() {
   return <section id="hero">
     <div>
-      <img src={heroImg} alt="Profile picture of Sandra Lavenda" />
+      <img className={styles.hero} src={heroImg} alt="Profile picture of Sandra Lavenda" />
     </div>
   </section>;
 }
