@@ -4,7 +4,7 @@ import heroImg from '../../assets/hero-img.png';
 function Hero() {
   return <section id="hero">
     <div>
-      <img src="" alt="Hero Image" />
+      <img src={heroImg} alt="Hero Image" />
     </div>
   </section>;
 }
