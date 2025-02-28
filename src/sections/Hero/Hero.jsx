@@ -3,12 +3,12 @@ import heroImg from '../../assets/hero-img.png';
 import themeIcon from '../../assets/sun.svg';
 
 function Hero() {
-  return <section id="hero">
+  return <section id="hero" className={styles.container}>
     <div className={styles.colorModeContainer}>
       <img 
       className={styles.hero} 
-      src={heroImg} a
-      lt="Profile picture of Sandra Lavenda" 
+      src={heroImg} 
+      alt="Profile picture of Sandra Lavenda" 
       />
 
       <img 
@@ -17,6 +17,10 @@ function Hero() {
       alt="Color mode icon" 
       />
 
+<div className={styles.info}>
+  <h1>Sandra <br /> Lavenda</h1>
+  <h2>Web Developer</h2>
+</div>
     </div>
   </section>;
 }
