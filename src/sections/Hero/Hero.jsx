@@ -1,6 +1,6 @@
 import styles from './HeroStyles.module.css';
 import heroImg from '../../assets/hero-img.png';
-import themeIcon from '../../assets/sun.svg';
+import themeIcon from '../../assets/sun.svg'; 
 
 function Hero() {
   return <section id="hero" className={styles.container}>
@@ -20,6 +20,11 @@ function Hero() {
 <div className={styles.info}>
   <h1>Sandra <br /> Lavenda</h1>
   <h2>Web Developer</h2>
+  <span>
+    <a href="https://twitter.com/" target="_blank">
+    
+    </a>
+  </span>
 </div>
     </div>
   </section>;
