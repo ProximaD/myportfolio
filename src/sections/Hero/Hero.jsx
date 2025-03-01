@@ -23,7 +23,7 @@ function Hero() {
   <h2>Web Developer</h2>
   <span>
     <a href="https://twitter.com/" target="_blank">
-
+    <img src={twitterIcon} alt="Twitter icon" />
     </a>
   </span>
 </div>
