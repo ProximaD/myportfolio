@@ -25,6 +25,14 @@ function Hero() {
     <a href="https://twitter.com/" target="_blank">
     <img src={twitterIcon} alt="Twitter icon" />
     </a>
+
+    <a href="https://twitter.com/" target="_blank">
+    <img src={twitterIcon} alt="Twitter icon" />
+    </a>
+
+    <a href="https://twitter.com/" target="_blank">
+    <img src={twitterIcon} alt="Twitter icon" />
+    </a>
   </span>
 </div>
     </div>
