@@ -1,6 +1,7 @@
 import styles from './HeroStyles.module.css';
 import heroImg from '../../assets/hero-img.png';
 import themeIcon from '../../assets/sun.svg'; 
+import twitterIcon from '../../assets/twitter-light.svg';
 
 function Hero() {
   return <section id="hero" className={styles.container}>
@@ -22,7 +23,7 @@ function Hero() {
   <h2>Web Developer</h2>
   <span>
     <a href="https://twitter.com/" target="_blank">
-    
+
     </a>
   </span>
 </div>
