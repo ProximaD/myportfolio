@@ -2,6 +2,8 @@ import styles from './HeroStyles.module.css';
 import heroImg from '../../assets/hero-img.png';
 import themeIcon from '../../assets/sun.svg'; 
 import twitterIcon from '../../assets/twitter-light.svg';
+import githubIcon from '../../assets/github-light.svg';
+import linkedinIcon from '../../assets/linkedin-light.svg';
 
 function Hero() {
   return <section id="hero" className={styles.container}>
