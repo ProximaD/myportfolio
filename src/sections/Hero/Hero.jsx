@@ -26,12 +26,12 @@ function Hero() {
     <img src={twitterIcon} alt="Twitter icon" />
     </a>
 
-    <a href="https://twitter.com/" target="_blank">
-    <img src={twitterIcon} alt="Twitter icon" />
+    <a href="https://github.com/" target="_blank">
+    <img src={githubIcon} alt="Github icon" />
     </a>
 
-    <a href="https://twitter.com/" target="_blank">
-    <img src={twitterIcon} alt="Twitter icon" />
+    <a href="https://linkedin.com/" target="_blank">
+    <img src={linkedinIcon} alt="Linkedin icon" />
     </a>
   </span>
 </div>
